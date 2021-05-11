@@ -1,0 +1,406 @@
+:root {
+    --primary-color: #bfa161;
+    --secondary-color: #254399;
+  }
+  html {
+    font-family:sans-serif;
+    text-size-adjust:100%;
+  }
+ *{
+     margin: 0;
+     padding:0;
+ }
+ body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+     color: rgb(49, 46, 46);
+    line-height: 1.4;
+ 
+     }
+  header {
+    border-bottom: #bfa161 solid px;
+    height: 140px;
+    background-color: #fff;
+    position: relative;
+    z-index:11;
+}
+header .nav-first{
+    display:flex;
+     justify-content:center ;
+     align-items: center;
+     padding-right:20px;
+}
+p{
+  color: grey;
+
+}
+#navbar {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90%;
+    width: 100%;
+    margin-top: 30px;
+  }
+   
+   
+   
+.nav-first label{
+    border:1px solid rgb(209, 178, 178);
+}
+.nav1 label {
+    border: 1px #ddd solid;
+    color: rgb(214, 59, 67);
+    padding: 7px 10px;
+    font-size: 12px;
+    background: #f6f7f4; margin-right: 10px;
+  }
+  
+  .nav-first input {
+    background: #eeeeee;
+    padding: 6px 5px;
+    border: none;
+  }
+  
+  .nav-first label span {
+    color: rgb(48, 28, 28);
+  }
+  
+  .nav-first label i {
+    color: red;
+  }
+  
+  .nav-first a i {
+    background: var(--primary-color);
+    display: inline-block;
+    border-radius: 0;
+    color: white;
+    padding: 6px;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .nav-first input .fa.fa-search {
+    margin-right: 10px;
+  }
+  .drop-down ul{
+list-style-type: none;
+  }
+  .drop-down ul li{
+      display: inline-block;
+      border-right:1px solid #ccb075;
+
+  }
+  .drop-down ul li ul{
+    list-style: none;
+  }
+  .drop-down ul li ul li{
+    display:none;
+  }
+  .drop-down ul li ul li a{
+    color:rgb(54, 20, 134);
+  }
+   
+  .drop-down ul li a{
+      text-decoration: none;
+      padding:10px;
+      color:black;
+      font-size:15px;
+      
+  }
+  .drop-down ul li a:hover{
+      color: #bfa161;
+
+  }
+  .drop-down .dd2 ul{
+    list-style: none;
+  }
+  .drop-down .dd2 ul li{
+    display: flexbox;
+  }
+   
+   .banner-content{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    left: 20%;
+    top:230px;
+    position: absolute;
+    text-align: left;
+     padding: 25px 50px;
+    font-family: JioType;
+   }
+   .banner-content h1{
+       font-size: 35px;
+   }
+   .banner-content p{
+       font-size:30px;
+   }
+    
+   
+   .flow p{
+       padding-left:200px;
+       font-size: 15px;
+   }
+   .flow-2 a{
+    text-decoration: none    ;
+   }
+    .flow-2{
+        float:right;
+       padding-right:200px;
+       position:relative;
+       top:-25px;
+    }
+    .container{
+      position:relative;
+      clear:both;
+      display: flex;
+      padding-right:200px;
+      padding-left:200px;
+    }
+    .poly h1{
+      color:blue;
+    }
+    .its h3{
+      color:blue;
+
+    }
+    .its i{
+      font-size:10px;
+      color:rgb(90, 85, 85);
+    }
+    .its ul{
+      list-style: none;
+    }
+    .its ul li{
+      display: list-item;
+      border-bottom:1px solid #e6e0d2 ;
+      padding: 6px 0 6px 15px;
+      border-top: 1px dotted #ccc;
+    }
+    .its ul li:last-child{
+      border: none;
+    }
+    .its ul li ul li{
+      border:white;
+    }
+    .container .its a{
+    text-decoration: none;
+    color:#bfa161;
+    
+    }
+    .products{
+      padding-right:200px;
+      padding-left:200px;
+    }
+    .repo h1,h2{
+      color:blue;
+    }
+    .ddmenu ul{
+      list-style-type: none;
+      display: block;
+      
+    }
+    .ddmenu ul li{
+      border-bottom: 0.5px solid #ccc6b9 ;
+      padding-bottom: -30px;
+       width:950px;
+
+    }
+    .ddmenu ul li a{
+      text-decoration: none;
+      display: block;
+      color:black;
+      border-bottom: none;
+    }
+    .ddmenu ul li ul li{
+      display: none;
+      border:none;
+    }
+    .ddmenu ul li ul li a{
+      color:rgb(54, 20, 134);
+    }
+    .ddmenu ul li:hover ul li{
+      display:inline-block;
+    }
+    .relene{
+      padding-right:200px;
+      padding-left:200px;
+    }
+    .relene .h h1{
+      color:#082577;
+    }
+    .remenu ul{
+      list-style-type: none;
+      display: block;
+      
+    }
+    .remenu ul li{
+     border-bottom: 1px solid #ccc6b9 ;
+      padding-bottom: 5px;
+      width:950px;
+    }
+    .remenu ul li a {
+      text-decoration: none;
+      display: block;
+      color:black;
+      border-bottom: none;
+    }
+    .remenu ul li ul li{
+      display: none;
+      border:none;
+    }
+    .remenu ul li ul li a{
+      color:blue;
+    }
+    .remenu ul li:hover ul li{
+      display:inline-block;
+    }
+    .Reon .h{
+      color:blue;
+    }
+    .Reon{
+      padding-right:200px;
+      padding-left:200px;
+    }
+    .relpipe{
+      padding-right:200px;
+      padding-left:200px;
+    }
+    .relpipe .h{
+      color:#082577;
+    }
+    .relme ul{
+      list-style: none;
+    }
+    .relme ul li ul li{
+      display: none;
+     }
+     .relme ul li:hover ul li{
+      display:flex;
+      transition: 4s;
+    }
+     relme ul li ul li a{
+      color:blue;
+    }
+    .last-menu{
+      padding-right:200px;
+      padding-left:200px;
+      display: flex;
+      flex-direction:column;
+    }
+    .last-menu .first-one{
+      flex-direction: column;
+  align-self: flex-start;
+  
+    }
+    .last-menu label {
+      background: var(--secondary-color) ;
+      display: inline-block;
+      color: white;
+      padding: 5px 10px;
+      font-size: 13px;
+      margin-right: 10px;
+      height: 35px;
+    }
+    
+  .last-menu label span {
+      font-size: 17px;
+      font-weight: bold;
+      padding-right: 5px;
+    }
+    .last-menu .f-1 {
+      display: flex;
+      flex-direction: row;
+      width: 350px;
+      margin: 10px 0px;
+    }
+    
+    .last-menu .f-2 {
+      display: flex;
+      flex-direction: row;
+      width: 350px;
+      margin: 10px 0px;
+    }
+    
+    .last-menu .f-3 {
+      display: flex;
+      flex-direction: row;
+      width: 350px;
+      margin: 10px 0px;
+    }
+    
+    .last-menu a {
+      text-decoration: none;
+      padding-left: 5px;
+      font-size: 13px;
+      color: grey;
+    }
+    .last-menu .second-one {
+      margin-left: 100px;
+      margin-top: -210px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+       max-width: 180px;
+    }
+    .last-menu .third-one {
+      margin-left: 700px;
+      margin-top: -130px;
+      display: flex;
+      flex-direction: column;
+      align-self: center;
+       max-width: 180px;
+    }
+    .last-menu .second-one a:hover {
+      margin-top: 30px;
+      font-weight: 1000;
+      border-right: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      padding: 10px;
+    }
+    .second-one .hov a:hover{
+      color:#c48d16;
+    }
+    .second-one .button{
+    color: white;
+    padding: 5px 15px;
+    }
+    .third-one ul{
+      list-style: none;
+    }
+    .super-end {
+      padding-right:200px;
+      padding-left:200px;
+      display: inline-block;
+  }
+  
+  .end {
+      padding-left: 20px;
+  }
+  .end p{
+    color: grey;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  }
+  .end  button{
+ width:80px; 
+ height:30px;}
+ .end input{
+   padding:5px;
+ }
+  
+  .third-end p {
+      font-size: 15px;
+      padding-left: 750px;
+      margin-top: -40px;
+   }
+  .third-end a{
+    display: inline-block;
+    color: grey;
+    font-size: 13px;
+     }
+  .third-end a:hover{
+    color:#bfa161;
+  }
+  
